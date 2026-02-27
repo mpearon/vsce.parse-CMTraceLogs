@@ -1,0 +1,13 @@
+name: test-workflow
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  call-workflow-passing-data:
+    uses: mpearon/private-workflows/.github/workflows/vsce-extension-BuildPublish.yml@latest
+    secrets:
+      VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+  
