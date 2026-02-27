@@ -1,3 +1,9 @@
+# v1.0.0 - 2026-02-27
+- Major version bump
+- Updated CHANGELOG
+# v0.0.7-19 - 2026-02-27
+- Dependabot merges
+- versioning bumps
 # v0.0.6 - 2021-03-31
 - version bump from ```0.0.5``` to ```0.0.6```
 - Merged dependabot vulnerability
