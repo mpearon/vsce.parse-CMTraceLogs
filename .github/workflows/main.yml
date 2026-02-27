@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: mpearon/private-workflows/.github/workflows/vsce-extension-BuildPublish.yml@v1
+    uses: mpearon/private-workflows/.github/workflows/vsce-extension-BuildPublish.yml@main
     secrets:
       VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
   
