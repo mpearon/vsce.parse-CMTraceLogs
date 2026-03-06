@@ -76,10 +76,14 @@
 		"mocha": "^11.7.5",
 		"tslint": "^5.20.0",
 		"typescript": "^5.9.3",
-		"vscode-test": "^1.2.2",
-		"serialize-javascript": "^7.0.3"
+		"vscode-test": "^1.2.2"
 	},
 	"dependencies": {
 		"minimist": "^1.2.6"
+	},
+	"overrides": {
+		"mocha": {
+			"serialize-javascript": "^7.0.3"
+		}
 	}
 }
