@@ -14,9 +14,9 @@
 	],
 	"author": {
 		"name": "Matthew Pearon",
-		"url": "https://CL3VER.life/mpearon"
+		"url": "https://mpearon.com"
 	},
-	"homepage": "https://github.com/mpearon/PUB-vsce.parse-CMTraceLogs/blob/master/README.md",
+	"homepage": "https://github.com/mpearon/vsce.parse-CMTraceLogs/blob/master/README.md",
 	"icon": "resources/altIcon-256.png",
 	"galleryBanner": {
 		"color": "#520000",
@@ -24,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mpearon/PUB-vsce.parse-CMTraceLogs"
+		"url": "https://github.com/mpearon/vsce.parse-CMTraceLogs"
 	},
 	"license": "MIT",
 	"extensionKind": [
@@ -76,7 +76,8 @@
 		"mocha": "^11.7.5",
 		"tslint": "^5.20.0",
 		"typescript": "^5.9.3",
-		"vscode-test": "^1.2.2"
+		"vscode-test": "^1.2.2",
+		"serialize-javascript": "^7.0.3"
 	},
 	"dependencies": {
 		"minimist": "^1.2.6"
